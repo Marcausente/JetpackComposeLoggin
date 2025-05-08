@@ -29,6 +29,6 @@ fun Login(modifier: Modifier) { //Recibimos el modifier heredado que le hemos ma
 
 @Composable
 fun HeaderImage() {
-    Image(painter = painterResource(id = ), contentDescription = "Header")
+    Image(painter = painterResource(id = R.drawable.wowlogo), contentDescription = "Header")
 }
 
